@@ -1,0 +1,138 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    background-color: #3A2A2A;
+}
+
+h2 {
+    text-align: center;
+    color: #3C2D2D;
+    font-size: 35px;
+    overflow: hidden;
+}
+
+.box {
+    padding: 0;
+    width: 457px;
+    height: 520px;
+    background-color: #B0A0A0;
+    margin-top: 80px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    margin-left: 430px;
+
+}
+form {
+    display: block;
+    margin-top: 0em;
+    padding-top: 10px;
+}
+
+.form-control {
+    position: relative;
+}
+.form-control label {
+    width: 40px;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-style: bold;
+    font-size: 16px;
+    line-height: 17px;
+    line-height: 100%;
+    text-align: left;
+    margin-top: 45px;
+    vertical-align: top;
+    color: #3C2D2D;
+    margin-left: 76px;
+    padding-bottom: 10px;
+}
+
+
+.form-control input[type=text], input[type=email], input[type=password] {
+    width: 322px;
+    height: 51px;
+    font-size: 12px;
+    font-family: sans-serif;
+    line-height: 15px;
+    text-align: left;
+    vertical-align: top;
+    color: #3C2D2D;
+    font-weight: 400;
+    background-color: #EADEDE;
+    padding-left: 10px;
+}
+
+.form-control input[type=text] {
+    margin-top: 10px;
+    margin-left: 62.5px;
+    margin-bottom: 20px;
+}
+
+.form-control input[type=email] {
+    margin-top: 10px;
+    margin-left: 62.5px;
+    margin-bottom: 20px;
+}
+
+.form-control input[type=password] {
+    margin-top: 10px;
+    margin-left: 62.5px;
+    margin-bottom: 20px;
+}
+
+.box input[type=submit] {
+    width: 161px;
+    height: 45px;
+    color: #3C2D2D;
+    background-color: #EADEDE;
+    border-radius: 0.5px;
+    text-align: center;
+    vertical-align: top;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 15px;
+    line-height: 100%;
+    margin-left: 237px;
+    margin-top: 25px;
+    font-weight: bold;
+}
+.form-control.success input {
+    border-color: #509E43;
+}
+
+.form-control.error input {
+    border-color: #e74c3c;
+}
+
+.form-control i {
+    visibility: hidden;
+    position: absolute;
+    top: 40px;
+    right: 10px;
+}
+
+.form-control.success i.fa-check-circle {
+    color: #2ecc71;
+    visibility: visible;
+}
+
+.form-control.error i.fa-exclamation-circle {
+    color: #e74c3c;
+    visibility: visible;
+}
+
+.form-control small {
+    color: #e74c3c;
+    position: absolute;
+    bottom: 0;
+    margin-left: 160px;
+    visibility: hidden;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.form-control.error small {
+    visibility: visible;
+    
+}
